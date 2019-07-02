@@ -1,4 +1,4 @@
-# angular-reddit
+# Youtube Search
 
 ### Developed with
 Angular, HTML5 and Bootstrap
