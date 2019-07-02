@@ -1,3 +1,11 @@
-<p>
-  search-result works!
-</p>
+<div class="thumbnail">
+  <img src="{{result.thumbnailUrl}}" class="img-fluid">
+  <div class="caption">
+    <h3>{{result.title}}</h3>
+    <p>{{result.description}}</p>
+    <p><a href="{{result.videoUrl}}"
+          target="blank"
+          class="btn btn-secondary" role="button">
+          Watch</a></p>
+  </div>
+</div>

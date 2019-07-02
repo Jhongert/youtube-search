@@ -11,6 +11,6 @@ export class AppComponent {
 
   updateResults(results: SearchResult[]): void {
     this.results = results;
-    console.log("results:", this.results); // uncomment to take a look
+    //console.log("results:", this.results); // uncomment to take a look
   }
 }
