@@ -28,7 +28,6 @@ export class YoutubeSearchService {
             .pipe(
                 map((response: any) => {
                     return <any>response['items'].map(item => {
-                        console.log("raw item", item);
                         return new SearchResult({
                             id: item.id.videoId,
                             title: item.snippet.title,
